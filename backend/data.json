@@ -1,0 +1,107 @@
+[
+  {
+    "id": 2,
+    "term": "Variable",
+    "definition": "A storage location identified by a name used to hold data.",
+    "example": "",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "term": "Function",
+    "definition": "A block of reusable code that performs a specific task.",
+    "example": "function greet() { console.log('Hello'); }",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "term": "Array",
+    "definition": "A data structure that contains a list of elements of the same type.",
+    "example": "let nums = [1, 2, 3];",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "term": "Loop",
+    "definition": "A control structure that repeats a block of code.",
+    "example": "for (let i = 0; i < 5; i++) { ... }",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "term": "Class",
+    "definition": "A blueprint for creating objects in object-oriented programming.",
+    "example": "class Car { constructor() { ... } }",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 7,
+    "term": "Object",
+    "definition": "An instance of a class.",
+    "example": "const car1 = new Car();",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "term": "Inheritance",
+    "definition": "A mechanism in OOP where one class can inherit traits from another.",
+    "example": "class Dog extends Animal { }",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9,
+    "term": "Compiler",
+    "definition": "A program that converts source code into executable code.",
+    "example": "",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "term": "Interpreter",
+    "definition": "A program that directly executes instructions written in a programming language.",
+    "example": "",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "term": "Recursion",
+    "definition": "A function that calls itself to solve smaller instances of a problem.",
+    "example": "function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); }",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "term": "Database",
+    "definition": "An organized collection of structured information or data.",
+    "example": "",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "term": "SQL",
+    "definition": "A language used for managing and querying relational databases.",
+    "example": "SELECT * FROM users;",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "term": "Bug",
+    "definition": "An error or flaw in a software program.",
+    "example": "",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "term": "Debugging",
+    "definition": "The process of identifying and removing errors from code.",
+    "example": "",
+    "difficulty": "Medium"
+  },
+  {
+    "term": "CPU",
+    "definition": "It stands for Central Processing Unit, and it is the \"brain\" of a computer, responsible for executing instructions and performing calculations",
+    "example": "",
+    "difficulty": "Easy",
+    "id": 1751015440485
+  }
+]

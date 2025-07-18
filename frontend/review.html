@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="review-style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>📖 Review Mode</h2>
+    <div class="card" id="reviewCard">
+      <div class="term" id="reviewTerm">Loading...</div>
+      <div class="def" id="reviewDef" style="display:none;"></div>
+      <div class="example" id="reviewExample"></div>
+    </div>
+    <button onclick="prevCard()">⬅ Previous</button>
+    <button onclick="nextCard()">Next ➡</button>
+    <button onclick="showDefinition()">💡 Show Definition</button>
+    <br><br>
+    <button onclick="location.href='index.html'">🔙 Back to Home</button>
+  </div>
+  <script src="review.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Flashcard System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📘 Smart Flashcard System</h2>
+    <button onclick="window.location.href='review.html'" class="review-btn">📖 Review Mode</button>
+    <div class="input-area">
+      <input type="text" id="termInput" placeholder="Term">
+      <input type="text" id="definitionInput" placeholder="Definition">
+      <input type="text" id="exampleInput" placeholder="Example (optional)">
+      <select id="difficultyInput">
+        <option value="Medium" selected>Medium</option>
+        <option value="Easy">Easy</option>
+        <option value="Hard">Hard</option>
+      </select>
+      <button id="addButton">➕ Add Flashcard</button>
+      <button id="clearButton">🗑 Clear All</button>
+    </div>
+    <div id="flashcardList"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
